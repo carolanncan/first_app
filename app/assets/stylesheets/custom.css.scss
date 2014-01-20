@@ -69,16 +69,16 @@ textarea {
 }
 
 footer {
-  margin-top:45px;
-  padding-top:5px;
-  border-top:1px solid #eaeaea;
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $grayMediumLight;
   color: $grayLight;
 
   a {
-    color: #555;
+    color: $gray;
 
     &:hover {
-      color: #222;
+      color: $grayDarker;
     }
   }
 
@@ -88,7 +88,7 @@ footer {
 
   ul {
     float: right;
-    listy-style: none;
+    list-style: none;
 
     li {
       float: left;
